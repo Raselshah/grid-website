@@ -32,6 +32,56 @@ hr{
     margin-top: 30px;
 }
 
+/* navbar style */
+
+.header-bg{
+    background-color: #562EFF;
+    height: 94px;
+}
+.nav-container{
+    justify-content: space-between;
+    display: flex;
+    width: 873px;
+    margin: auto;
+    align-items: center;
+    padding: 20px;
+}
+.navbar-left{
+    display: flex;
+    align-items: center;
+}
+.logo img{
+    width: 40px;
+    height: 51px;
+}
+.logo-text{
+    color:#fff;
+    margin-left: 15px;
+}
+.navbar-right{
+    display: flex;
+    align-items: center;
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    list-style: none;
+    margin-left: 36px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+.person{
+    margin-left: 36px;
+}
+.person img{
+    width: 51px;
+    height: 51px;
+}
+
+
 /* top player style */
 
 .top-player{
@@ -74,6 +124,15 @@ hr{
 .blog-info{
     margin-left: 21px;
 }
+.blog-info p{
+    color: #9F9F9F;
+    font-size: 16px;
+    margin-top: 10px;
+}
+.blog-info a{
+    text-decoration: none;
+    color: #562EFF;
+}
 
 /* ---------------------------
     Latest style 
@@ -96,9 +155,15 @@ hr{
     width: 224px;
     height: 104px;
 }
+.course-info p{
+    color: #ED6B4F;
+    margin-top: 7px;
+    margin-bottom: 17px;
+}
 .rating{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .fa-star.field{
     color: #FFC014;
@@ -110,9 +175,11 @@ hr{
 .hour{
     background-color: rgba(237, 109, 80, 0.23);
     border-radius: 25px;
+    padding: 0 15px;
 }
 .hour p{
     color: #FF4A60;
-    padding: 1px 5px;
+    padding: 0;
+    margin: 0;
     font-size: 15px;
 }
