@@ -141,12 +141,12 @@ nav ul li a{
     display: flex;
 }
 .courses{
-    padding: 30px;
+    padding: 25px;
 }
 .course{   
     box-shadow: 2px 2px 2px 2px rgba(1, 0, 0, 0.027);
     border-radius: 5px;
-    width: 400px;
+    margin-right: 25px;
 }
 .banner, .course-info{
     padding: 15px;
